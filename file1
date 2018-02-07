@@ -3,4 +3,6 @@ a=10
 b=20
 echo "Addition of A and B"
 c=`expr $a + $b`
+d=`expr $a + $b`
+e=`expr $a */ $b`
 echo " The result of addition is $c"
